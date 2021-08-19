@@ -3,6 +3,8 @@ this is the installation script of suricata with PF_RING. This combination will 
 
 #### Components installed
 [PF_RING](https://github.com/ntop/PF_RING.git)
+
 [luajit 2.0.4](http://luajit.org/download)
+
 [suricata 6.0.3](https://www.openinfosecfoundation.org/download)
 
