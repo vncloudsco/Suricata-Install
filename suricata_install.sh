@@ -56,7 +56,14 @@ function ft_config() {
     mv /etc/suricata/suricata.yaml /etc/suricata/suricata.yaml.bak
     cp suricata.yaml /etc/suricata/suricata.yaml
     cp suricata.service /usr/lib/systemd/system/suricata.service
+    systemctl daemon-reload
     suricata-update
+
+}
+
+function suricata_start()
+{
+    service suricata srtart
 }
 
 deps
@@ -65,3 +72,4 @@ Luajit
 suricata
 rules_default
 ft_config
+suricata_start
