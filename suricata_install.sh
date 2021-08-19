@@ -61,8 +61,7 @@ function ft_config() {
 
 }
 
-function suricata_start()
-{
+function suricata_start() {
     service suricata srtart
 }
 
